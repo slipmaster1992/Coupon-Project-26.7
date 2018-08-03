@@ -1,0 +1,57 @@
+
+  <table style="margin-right: 10px" class="table table-striped table-bordered">
+  <thead>
+      <tr>
+          <th>Id</th>
+          <th>Coupon Title</th>
+          <th>Coupon Start Date</th>
+          <th>Coupon End Date</th>
+          <th>Coupon Amount</th>
+          <th>Coupon Type </th>
+          <th>Coupon Message </th>
+          <th>Coupon Price </th>
+          <th>Coupon Image </th>
+      </tr>
+  
+    </thead>
+
+    <tbody>
+  
+  <tr *ngFor="let c of coupons">
+     
+     <td> {{c.id}} </td>
+     <td> {{c.title}} </td>
+     <td> {{c.startDate | date:'yyyy-MM-dd'}} </td>
+     <td> {{  c.endDate | date:'yyyy-MM-dd'}} </td>
+     <td> {{c.amount}} </td>
+     <td> {{c.type}} </td>
+     <td> {{c.message}} </td>
+     <td> {{c.price}} </td>
+     <td> <img src="{{c.image}}" width="100px" height="100px"/></td>
+
+       <td> <button (click)="updateCoupon(c)"   class="btn1 btn-primary a-btn-slide-text">
+        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+        <span><strong>Edit</strong></span>   </button>  </td>
+      
+        <td> <button (click)="removeCoupon(c)"  class="btn2 btn-primary a-btn-slide-text">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+           <span><strong>Delete</strong></span> </button>  </td>
+        
+    </tr>
+
+  </tbody>
+</table>
+      
+<br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ 
+ <!-- <button (click)="getCompanyCoupons()" class="btn btn-danger btn-lg">Get Coupon  <span class="glyphicon glyphicon-trash"></span></button> -->
+          
+    
+
+
+

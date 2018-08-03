@@ -1,0 +1,6 @@
+.custom-swal-class {
+    overflow-x: visible;
+    overflow-y: visible;
+    max-height: 550px !important;
+    min-height: 550px !important;
+}

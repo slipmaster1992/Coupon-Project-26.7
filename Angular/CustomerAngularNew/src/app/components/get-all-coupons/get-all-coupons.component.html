@@ -1,0 +1,42 @@
+<table style="margin-right: 10px" class="table table-striped table-bordered">
+  <thead>
+      <tr>
+          <th>Id</th>
+         <th>Purchase</th>
+          <th>Coupon Title</th>
+          <th>Coupon Start Date</th>
+          <th>Coupon End Date</th>
+          <th>Coupon Amount</th>
+          <th>Coupon Type </th>
+          <th>Coupon Message </th>
+          <th>Coupon Price </th>
+          <th>Coupon Image </th>
+      </tr>
+  </thead>
+<tbody>
+   <tr *ngFor="let c of coupons">
+    
+    <td> {{c.id}} </td>
+
+     <td> <button (click)="purchaseCoupon(c.id)"   class="btn1 btn-primary a-btn-slide-text">
+      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+      <span><strong>Buy It Now</strong></span>   </button>  </td>
+     
+     <td> {{c.title}} </td>
+     <td> {{c.startDate | date:'yyyy-MM-dd'}} </td>
+     <td> {{c.endDate | date:'yyyy-MM-dd'}} </td>
+     <td> {{c.amount}} </td>
+     <td> {{c.type}} </td>
+     <td> {{c.message}} </td>
+     <td> {{c.price}} </td>
+     <td> <img src="{{c.image}}" width="100px" height="100px"/> </td>
+   </tr>
+
+  </tbody>
+</table>
+ 
+          
+    
+
+
+

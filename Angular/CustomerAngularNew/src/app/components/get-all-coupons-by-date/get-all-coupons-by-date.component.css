@@ -1,0 +1,197 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+#container{
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #005778;
+	width:100%;
+	height:100%;
+}
+
+#button-container{
+	position:relative;
+	left:10%;
+	width:203px;
+	height:43px;
+	background:#022c3e;
+	padding-top:5px;
+	margin-top:10px;
+	-webkit-border-radius:38px;
+	-moz-border-radius:38px;
+	border-radius:38px;
+	-webkit-box-shadow:inset 0 1px 2px #000, 0px 1px 1px rgba(255,255,225,0.2);
+	-moz-box-shadow:inset 0 1px 2px #000, 0px 1px 1px rgba(255,255,225,0.2);
+	box-shadow:inset 0 1px 2px #000, 0px 1px 0px rgba(255,255,225,0.3);
+	/*Hover effect*/
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+	transition: .5s all;}
+
+#button{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width:193px;
+	height:38px;
+	margin:0px auto;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	cursor:pointer;
+
+}
+
+#button p{
+	margin-top: 11px;
+	margin-left:60px;
+	font-size:.9em;
+}
+
+#button-container:hover {
+	-webkit-box-shadow: inset 0 1px 2px #000, 0px 0px 10px 5px rgba(255,255,225,0.2);
+}
+
+/*Colors*/
+
+
+.green{
+	background: #c3c787; /* Old browsers */
+	background: -moz-linear-gradient(top, #c3c787 0%, #c3c787 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3c787), color-stop(100%,#c3c787)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #c3c787 0%,#c3c787 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #c3c787 0%,#c3c787 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #06394b 0%,#06394b 100%); /* IE10+ */
+	background: linear-gradient(top, rgba#06394b 0%,#06394b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/*ICONS*/
+#clock{
+	position:absolute;
+	top:10px;
+	left:20px;
+	width:15px;
+	height:15px;
+	border:2px solid #000;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity:0.8;
+}
+#clock-hand1{
+	position:absolute;
+	width:0px;
+	height:5px;
+	border:1px solid #000;
+	top:2px;
+	left:7px;
+}
+#clock-hand2{
+	position:absolute;
+	width:5px;
+	height:0px;
+	border:1px solid #000;
+	top:7px;
+	left:7px;
+}
+
+#order{
+	position:absolute;
+	top:10px;
+	left:23px;
+	width:10px;
+	height:15px;
+	border:2px solid #000;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	border-top-right-radius:5px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity:0.8;
+}
+
+#order-line{
+	position:absolute;
+	width:4px;
+	height:0px;
+	border:1px solid #000;
+	top:5px;
+	left:0px;
+}
+
+#order-line:nth-child(2){
+	top:10px;
+	width:6px;
+}
+
+#camera{
+	position:absolute;
+	top:12px;
+	left:23px;
+	width:17px;
+	height:11px;
+	border:2px solid #000;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity:0.8;
+}
+
+#camera-optics{
+	position:absolute;
+	top:1px;
+	left:4px;
+	width:5px;
+	height:5px;
+	border:2px solid #000;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}
+
+#camera-button{
+	position:absolute;
+	top:-3px;
+	left:1px;
+	width:0px;
+	height:0px;
+	border:2px solid #000;
+	border-bottom:0;
+}
+
+.btn1 {
+    background-color: rgb(221, 168, 90); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 12px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+    background-color: rgb(198, 201, 61);
+}
+.btn1:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.btn1 {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}

@@ -1,0 +1,35 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lily+Script+One");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+
+
+.navbar {
+    background: #c3c787;
+}
+
+.nav a {
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+.dropdown {
+    background: #c3c787;
+}
+
+.dropdown a {
+    background: #c3c787;
+}
+
+.dropdown a:hover {
+    background:#06394b
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+.intro{
+    font-family: "Times New Roman", Times, serif;
+    color: #06394b;
+
+}

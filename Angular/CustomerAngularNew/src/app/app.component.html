@@ -1,0 +1,248 @@
+
+
+
+
+
+<div class="container1" id="home">
+	<div class="row text-center">
+
+		<h4 class="head-main"> <i class="fa fa-desktop fa-2x"></i> Welcome </h4>
+		 <h6 class="head-sub-main"><i class="fa fa-desktop fa-2x"></i> Coupon Market System</h6>
+		 
+		 
+		
+	</div>
+</div>
+
+
+
+<!-- Navigation -->
+<nav class="navbar-inverse" role="navigation">
+		<div class="container">
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						</button>
+						
+				</div>
+				
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#home">Home</a>
+					</li>
+					<li><a href="#about">Global Market</a>
+					</li>                    
+							 
+					<li><a href="#work-sec">Purchase By Date</a>
+					</li>
+					 <li><a href="#contact-sec">Purchase By Price</a>
+					</li>
+					<li><a href="#map-sec">Purchase By Type</a>
+           </li>
+           <li><a href="#about1">My Coupons</a>
+           </li>                    
+                
+           <li><a href="#work-sec1">View By Date</a>
+           </li>
+            <li><a href="#contact-sec1">View By Price</a>
+           </li>
+           <li><a href="#map-sec1">View By Type</a>
+            </li>
+					 <li><a href="http://localhost:8080/login.html">Log Out</a>
+					 </li>
+				</ul>
+				</div>
+			
+		</div>
+	
+	</nav> 
+	
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+				
+<section class="color-white " id="about"  >
+<div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+		box-shadow: 0 0 12px rgb(0, 0, 0) , 0 0 12px rgb(0, 0, 0);">
+		 <h1 class="admin-h1"> Aviliable Coupons  </h1>
+ </div>
+<br>
+<br>
+<app-get-all-coupons>
+
+</app-get-all-coupons>
+
+
+<br>
+<br>
+<br>
+<br> 
+	
+</section>
+
+ 
+
+ 
+<section class="color-white " id="work-sec"  >
+<div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+		  box-shadow: 0 0 12px rgb(8, 8, 8) , 0 0 12px rgb(0, 0, 0);">
+	<h1 class="admin-h1"> Aviliable Coupons By Date </h1>
+</div>
+
+<br>
+<br>		
+<app-get-all-coupons-by-date>
+
+</app-get-all-coupons-by-date>
+<br>
+<br>
+<br>
+<br>	
+
+</section>
+ 
+
+<section class="color-light " id="contact-sec"  >
+<div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+     box-shadow: 0 0 12px rgb(0, 0, 0) , 0 0 12px rgb(0, 0, 0);">
+	<h1 class="admin-h1"> Aviliable Coupons By Price </h1>
+</div>
+<br>
+<br>		
+<app-get-all-coupons-by-price>
+  
+</app-get-all-coupons-by-price>
+
+<br>
+<br>
+<br>
+<br>
+
+</section>
+
+
+
+ <section class="color-light " id="map-sec"  >
+<div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+	  box-shadow: 0 0 12px rgb(0, 0, 0) , 0 0 12px rgb(0, 0, 0);">
+	  <h1 class="admin-h1"> Aviliable Coupons By Type </h1>
+</div>
+	
+<br>
+<br>
+<app-get-all-coupons-by-type>
+  
+</app-get-all-coupons-by-type>
+<br>
+<br>
+<br>
+<br>
+	
+</section>
+
+
+
+<section class="color-white " id="about1"  >
+  <div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+      box-shadow: 0 0 12px rgb(0, 0, 0) , 0 0 12px rgb(0, 0, 0);">
+       <h1 class="admin-h1"> My Coupons </h1>
+   </div>
+  <br>
+  <br>
+  <app-get-customer-coupons>
+
+  </app-get-customer-coupons>
+  
+  <br>
+  <br>
+  <br>
+  <br> 
+    
+  </section>
+  
+   
+  
+   
+  <section class="color-white " id="work-sec1"  >
+  <div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+        box-shadow: 0 0 12px rgb(8, 8, 8) , 0 0 12px rgb(0, 0, 0);">
+    <h1 class="admin-h1"> My Coupons By Date </h1>
+  </div>
+  
+  <br>
+  <br>		
+  <app-get-customer-coupons-by-date>
+
+  </app-get-customer-coupons-by-date>
+  
+  <br>
+  <br>
+  <br>
+  <br>	
+  
+  </section>
+   
+  
+  <section class="color-light " id="contact-sec1"  >
+  <div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+       box-shadow: 0 0 12px rgb(0, 0, 0) , 0 0 12px rgb(0, 0, 0);">
+    <h1 class="admin-h1"> My Coupons By Price </h1>
+  </div>
+  <br>
+  <br>		
+    <app-get-customer-coupons-by-price>
+    
+  </app-get-customer-coupons-by-price>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  </section>
+  
+  
+  
+  <section class="color-light " id="map-sec1"  >
+    <div class="animated d slideInLeft" style="background-color: rgb(228, 175, 107); width:100vw;
+        box-shadow: 0 0 12px rgb(0, 0, 0) , 0 0 12px rgb(0, 0, 0);">
+        <h1 class="admin-h1"> My Coupons By Type </h1>
+    </div>
+      
+    <br>
+    <br>
+    <app-get-customer-coupons-by-type>
+    
+    </app-get-customer-coupons-by-type>
+    <br>
+    <br>
+    <br>
+    <br>
+      
+    </section>
+    
+  
+
+
+
+
+<div  class="for-full-back "  id="footer" >
+				 
+Alex Nekrasov Coupon System 2018 | All Right Reserved
+	 
+</div>
